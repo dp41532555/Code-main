@@ -18,14 +18,14 @@ class base1
  class derived : public base,public base1
  {
     public:
-    cube()
+     int cube()
     {
         for(i=0;i<n;i++)
         {
             cout<<"cube"<<i<<":-"<<i*i*i<<endl;
         }
     }
-    square()
+     int square()
     {
            for(i=0;i<n;i++)
         {
