@@ -18,7 +18,7 @@ public:
 class abc : public derived
 {
 public:
-    cube()
+ int cube()
     {
         for (i = 0; i < n; i++)
         {
