@@ -18,16 +18,24 @@ public:
 class abc : public derived
 {
 public:
- int cube()
+    int cube()
     {
         for (i = 0; i < n; i++)
         {
             cout << "cube" << i << ":-" << i * i * i << endl;
         }
     }
+    int square()
+    {
+        for (i = 0; i < n; i++)
+        {
+            cout << "square" << i << ":-" << i * i << endl;
+        }
+    }
 };
 int main()
 {
     abc a;
-    cout<<"cube is "<<a.cube();
+    cout << "cube is " << a.cube();
+    cout << "square is " << a.square();
 }

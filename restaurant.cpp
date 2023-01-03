@@ -1,13 +1,12 @@
 #include <iostream>
 #include <conio.h>
-
 #define B 200;
 #define F 50;
 #define P 500;
 #define S 150;
 
 using namespace std;
-
+//
 // void takecustomerdata();
 // void displaymenu();
 
@@ -15,10 +14,10 @@ void displaymenu()
 {
 
     cout << "Menu" << endl;
-    cout << "B-Burger" << endl;
-    cout << "F-French Fries" << endl;
-    cout << "P-Pizza" << endl;
-    cout << "S-Sandwich" << endl;
+    cout << "B-Burger=200" << endl;
+    cout << "F-French Fries=50" << endl;
+    cout << "P-Pizza=500" << endl;
+    cout << "S-Sandwich=150" << endl;
 }
 
 void takecustomerdata()
@@ -48,7 +47,7 @@ void takecustomerdata()
         cout << "Total Charge: " << charge << endl;
         break;
     case 'S':
-        charge = quantity * 500;
+        charge = quantity * 150;
         cout << "Total Charge: " << charge << endl;
         break;
     default:
@@ -59,9 +58,7 @@ int main()
 {
 
     displaymenu();
-
     takecustomerdata();
-
     getch();
     return 0;
 }
