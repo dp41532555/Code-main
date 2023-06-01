@@ -59,8 +59,8 @@ int main()
     display(a);
     delete (a, 10);
     display(a);
-   insert(a, 60);
+    insert(a, 60);
     display(a);
-  // insert(a, 70);
+    insert(a, 70);
     
 }
